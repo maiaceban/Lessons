@@ -11,5 +11,6 @@ public class Main {
         int num = scanner.nextInt();
         System.out.println((num % 100) / 10);
 
+
     }
 }
