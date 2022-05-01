@@ -8,7 +8,7 @@ public class Main {
         if (N <= 10000 & K <= 1000) {
             System.out.println(K / N);
         } else {
-            System.out.println("You inserted number bigger then 10000!");
+            System.out.println("UPS! You inserted number bigger then 10000!");
         }
     }
 }
