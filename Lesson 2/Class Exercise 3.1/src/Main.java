@@ -5,6 +5,6 @@ public class Main {
         int twelve = 12;
         int eighty = 80;
         int five = 5;
-        System.out.println(ten + " " + oneHundred + " " + twelve + " " + eighty + " " + five);
+        System.out.println(ten + "  " + oneHundred + "  " + twelve + "  " + eighty + " " + five);
     }
 }
