@@ -1,9 +1,0 @@
-#Build results
-out/
-target/
-
-###Intellij IDEA###
-*.iml
-.idea/
-*.log
-
