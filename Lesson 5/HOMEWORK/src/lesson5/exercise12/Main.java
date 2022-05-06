@@ -1,4 +1,4 @@
-package homework.lesson5.exercise12;
+package lesson5.exercise12;
 
 /**
  * The restriction: the class should have the name Main

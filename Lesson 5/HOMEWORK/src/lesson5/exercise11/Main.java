@@ -1,4 +1,4 @@
-package homework.lesson5.exercise11;
+package lesson5.exercise11;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,6 +7,5 @@ public class Main {
 //        System.out.print(" and ");
         System.out.print("Java");
         System.out.print(" platform");
-
     }
 }

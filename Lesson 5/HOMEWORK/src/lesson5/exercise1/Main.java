@@ -1,11 +1,12 @@
-package homework.lesson5.exercise1;
+package lesson5.exercise1;
+
+import java.util.Scanner;
+
 /**
  * 1.Healthy sleep
  */
 
-import java.util.Scanner;
-/*
- * You are given three numbers: A, B and H. According to recommendations, one should sleep at least "A" hours per day,
+/* You are given three numbers: A, B and H. According to recommendations, one should sleep at least "A" hours per day,
  * but no more than 'B' hours. "H" is how many hours Ann sleeps.
  * Task:
  * If Ann sleeps less than 'A' hours, print "Deficiency".
@@ -27,4 +28,5 @@ public class Main {
         } else
             System.out.println("Deficiency");
     }
+
 }

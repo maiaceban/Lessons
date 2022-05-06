@@ -1,7 +1,9 @@
-package homework.lesson5.exercise2;
+package lesson5.exercise2;
+
+import java.util.Scanner;
 
 /**
- *  2.The army of units
+ * 2.The army of units
  */
 /*
 In a computer game, each gamer has an army of units. Write a program that will
@@ -29,3 +31,5 @@ public class Main {
         }
     }
 }
+
+
