@@ -16,20 +16,22 @@ from 250 to 999: zounds
  */
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int army = sc.nextInt();
 
-        int army = 1; // a certain value less than 1
-        System.out.println("no army");
-        if (1 == 19) {
+        if (army < 1) {
+            System.out.println("no army");
+        } else if (army <= 19) {
             System.out.println("pack");
-        } else if (20 == 249) {
+        } else if (army <= 249) {
             System.out.println("throng");
-        } else if (250 == 999) {
+        } else if (army <= 999) {
             System.out.println("zounds");
         } else {
             System.out.println("legion");
-//        }
         }
     }
 }
+
 
 

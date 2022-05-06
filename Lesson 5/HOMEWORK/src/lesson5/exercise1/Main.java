@@ -21,9 +21,9 @@ public class Main {
         int B = sc.nextInt();
         int H = sc.nextInt();
 
-        if (A <= B) {
+        if (H >= A && H <= B) {
             System.out.println("Normal");
-        } else if (A > H) {
+        } else if (H < A) {
             System.out.println("Excess");
         } else
             System.out.println("Deficiency");
