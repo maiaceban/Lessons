@@ -16,14 +16,13 @@ The program must output one of the two words: YES or NO.
 public class Chocolate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
-        int k = scanner.nextInt();
+        int g1 = scanner.nextInt();//20
+        int g2 = scanner.nextInt();//21
+        int g3 = scanner.nextInt();//22
 
-        if (k <= n * m && (k % n == 0 && k >= n || k % m == 0 && k >= m)) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
+        int res1 = (g1 + 1) / 2; // = 21 / 2 = 10
+        int res2 = (g2 + 1) / 2; // = 22 / 2 = 11
+        int res3 = (g3 + 1) / 2; // = 23 / 2 = 12
+        System.out.println(res1 + res2 + res3); // = 32
     }
 }
