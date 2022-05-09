@@ -14,7 +14,7 @@ import java.util.Scanner;
  * If her sleep fits the recommendations, print "Normal".
  * Input format: three numbers A, B, H, where A is always less than or equal to B.
  */
-public class Main {
+public class HealthySleep {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();

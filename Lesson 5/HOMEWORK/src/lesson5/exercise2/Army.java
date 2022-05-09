@@ -14,7 +14,7 @@ from 20 to 249: throng
 from 250 to 999: zounds
 1000 and more: legion
  */
-public class Main {
+public class Army {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int army = sc.nextInt();
