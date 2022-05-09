@@ -6,14 +6,6 @@ import java.util.Scanner;
  * 1.Healthy sleep
  */
 
-/* You are given three numbers: A, B and H. According to recommendations, one should sleep at least "A" hours per day,
- * but no more than 'B' hours. "H" is how many hours Ann sleeps.
- * Task:
- * If Ann sleeps less than 'A' hours, print "Deficiency".
- * If she sleeps more than 'B' hours, print "Excess".
- * If her sleep fits the recommendations, print "Normal".
- * Input format: three numbers A, B, H, where A is always less than or equal to B.
- */
 public class HealthySleep {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,11 +14,11 @@ public class HealthySleep {
         int H = sc.nextInt();
 
         if (H >= A && H <= B) {
-            System.out.println("Normal");
+            System.out.println("normal");
         } else if (H < A) {
-            System.out.println("Excess");
+            System.out.println("excess");
         } else
-            System.out.println("Deficiency");
+            System.out.println("deficiency");
     }
 
 }
