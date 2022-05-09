@@ -24,8 +24,8 @@ public class FloorSpaceOfTheRoom {
                 break;
 
             case "circle":
-                double Range = scanner.nextDouble();
-                System.out.println(3.14 * Range * Range);
+                double r = scanner.nextDouble();
+                System.out.println(3.14 * r * r);
                 break;
 
             default:
