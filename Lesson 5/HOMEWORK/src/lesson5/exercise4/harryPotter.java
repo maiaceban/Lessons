@@ -7,11 +7,11 @@ public class harryPotter {
         Scanner scanner = new Scanner(System.in);
         String house = scanner.nextLine();
         switch (house) {
-            case "gryffindor" -> System.out.println("bravery");
-            case "hufflepuff" -> System.out.println("loyalty");
-            case "slytherin" -> System.out.println("cunning");
-            case "raven claw" -> System.out.println("intellect");
-            default -> System.out.println("not a valid house");
+            case "gryffindor" -> System.out.println("Bravery!");
+            case "hufflepuff" -> System.out.println("Loyalty!");
+            case "slytherin" -> System.out.println("Cunning!");
+            case "raven claw" -> System.out.println("Intellect!");
+            default -> System.out.println("Not a valid house!");
         }
     }
 }
