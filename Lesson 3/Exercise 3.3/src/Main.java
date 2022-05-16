@@ -5,8 +5,7 @@ public class Main {
          * Then that "double" variable cast back to "byte"
          *
          * byte > short > int > long > float > double */
-
-
+        
         byte b = 127;
         short s = b;
         int i = s;
@@ -24,7 +23,6 @@ public class Main {
         short smallerIntegerNumber = (short) hugeIntegerNumber;
         byte smallestIntegerNumber = (byte) smallerIntegerNumber;
         char character = (char) smallestIntegerNumber;
-
 
         System.out.println("double hugeDecimalNumber = " + hugeDecimalNumber);
         System.out.println("float smallerDecimalNumber = " + smallerDecimalNumber);
