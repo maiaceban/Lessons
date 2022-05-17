@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int f = scanner.nextInt();
-
         String st = "You have chosen a ";
 
         switch (f) {
