@@ -10,11 +10,9 @@ public class Main {
         */
 
         Scanner sc = new Scanner(System.in);
-        String str1 = sc.nextLine();
+        String str = sc.nextLine();
 
         // Replace all the 'a' characters with 'b' characters.
-        String replace = str1.replace('a', 'b');
-
-        System.out.println(replace);
+        System.out.println(str.replaceAll("a", "b"));
     }
 }
