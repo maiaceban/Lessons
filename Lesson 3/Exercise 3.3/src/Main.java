@@ -1,11 +1,15 @@
 public class Main {
+    /**
+     * java fundamentals
+     * @param args
+     */
     public static void main(String[] args) {
         /* Declare and initialize a variable of "byte" type and
          * cast it to each type till "double".
          * Then that "double" variable cast back to "byte"
          *
          * byte > short > int > long > float > double */
-        
+
         byte b = 127;
         short s = b;
         int i = s;
