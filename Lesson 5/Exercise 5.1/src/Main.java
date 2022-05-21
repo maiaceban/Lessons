@@ -36,10 +36,10 @@ public class Main {
         int H = sc.nextInt();
 
         if (H >= A && H <= B) {
-            System.out.println("Normal");
+            System.out.println("Normal!");
         } else if (H > A) {
-            System.out.println("Excess");
+            System.out.println("Excess!");
         } else
-            System.out.println("Deficiency");
+            System.out.println("Deficiency!");
     }
 }
