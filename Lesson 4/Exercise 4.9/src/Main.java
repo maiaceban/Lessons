@@ -1,7 +1,19 @@
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Tekwill Academy
+     * Java Fundamentals
+     */
     public static void main(String[] args) {
+        /*
+        Write a program that reads three integer numbers and prints true if exactly one
+        number is positive (i.e. > 0). Otherwise, it should print false.
+            Sample Input 1: 1 1 1
+            Sample Output 1: false
+            Sample Input 2: 1 0 -1
+            Sample Output 2: true
+         */
         Scanner scanner = new Scanner(System.in);
         int i = scanner.nextInt();
         int j = scanner.nextInt();
