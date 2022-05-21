@@ -25,7 +25,7 @@ public class Main {
         int army = sc.nextInt();
 
         if (army < 1) {
-            System.out.println("No army");
+            System.out.println("No army!");
         } else if (army <= 19) {
             System.out.println("Pack");
         } else if (army <= 249) {
