@@ -39,9 +39,9 @@ public class Main {
         int k = sc.nextInt();
 
         if (k <= n * m && (k % n == 0 && k >= n || k % m == 0 && k >= m)) {
-            System.out.println("YES");
+            System.out.println("YES!");
         } else {
-            System.out.println("NO");
+            System.out.println("NO!");
         }
     }
 }
