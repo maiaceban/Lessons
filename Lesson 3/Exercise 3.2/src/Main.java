@@ -1,5 +1,12 @@
 public class Main {
+    /**
+     * Java Fundamentals
+     * @param args
+     */
     public static void main(String[] args) {
+        /*
+        Given two or more variables a and b etc. with invalid declarations. Add a type to them.
+         */
         byte b = 123;
         short s = 32767;
         int i = 2_147_483_647;
