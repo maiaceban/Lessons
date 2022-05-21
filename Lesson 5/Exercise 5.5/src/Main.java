@@ -37,7 +37,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         switch (scanner.next()) {
-            case "Triangle":
+            case "triangle":
                 double a = scanner.nextDouble();
                 double b = scanner.nextDouble();
                 double c = scanner.nextDouble();
@@ -47,13 +47,13 @@ public class Main {
                 System.out.println(s);
                 break;
 
-            case "Rectangle":
+            case "rectangle":
                 double a1 = scanner.nextDouble();
                 double b2 = scanner.nextDouble();
                 System.out.println(a1 * b2);
                 break;
 
-            case "Circle":
+            case "circle":
                 double r = scanner.nextDouble();
                 System.out.println(3.14 * r * r);
                 break;
