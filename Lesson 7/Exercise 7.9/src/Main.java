@@ -6,13 +6,12 @@ public class Main {
         a space after the last letter. Despite the possibility to solve this problem without a
         StringBuilderat all, we highly recommend you to use it to get more practice.
         */
+
+        char c;
+
         StringBuilder builder = new StringBuilder();
-
-
-        String sentence = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        String[] letter = sentence.split(" " );
-        System.out.println(sentence);//prints A B C D E ...
-
-
+        for (c = 'A'; c <= 'Z'; ++c)
+            System.out.print(c + " ");
+        System.out.println(builder);//prints A B C D E ...
     }
 }
