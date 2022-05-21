@@ -24,7 +24,7 @@ public class Main {
             case "hufflepuff" -> System.out.println("Loyalty!");
             case "slytherin" -> System.out.println("Cunning!");
             case "raven claw" -> System.out.println("Intellect!");
-            default -> System.out.println("Not a valid house!");
+            default -> System.out.println("Not a valid house");
         }
     }
 }
