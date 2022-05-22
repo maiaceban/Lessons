@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Tekwill Academy
+     * Java Fundamentals
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();   // declaring a variable and initialize it with user input
