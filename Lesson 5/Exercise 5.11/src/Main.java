@@ -9,6 +9,6 @@ public class Main {
 //        System.out.print("world");
 //        System.out.print(" and ");
         System.out.print("Java");
-        System.out.print(" platform!");
+        System.out.print("Platform!");
     }
 }
