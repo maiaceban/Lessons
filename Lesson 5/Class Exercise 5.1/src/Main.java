@@ -10,9 +10,9 @@ public class Main {
         int number = sc.nextInt();
 
         if (number > 0) {
-            System.out.println("YES");
+            System.out.println("YES!");
         } else {
-            System.out.println("NO");
+            System.out.println("NO!");
         }
     }
 }
