@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/**
+ * Tekwill Academy
+ * Java Fundamentals
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
