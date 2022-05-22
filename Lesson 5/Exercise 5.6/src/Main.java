@@ -23,7 +23,7 @@ public class Main {
             case 3 -> System.out.println("Move left");
             case 4 -> System.out.println("Move right");
             case 0 -> System.out.println("Do not move");
-            default -> System.out.println("error!");
+            default -> System.out.println("Error!");
 
         }
     }
