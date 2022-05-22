@@ -18,11 +18,11 @@ public class Main {
 
         int direction = sc.nextInt();
         switch (direction) {
-            case 1 -> System.out.println("Move Up");
-            case 2 -> System.out.println("Move down");
-            case 3 -> System.out.println("Move left");
-            case 4 -> System.out.println("Move right");
-            case 0 -> System.out.println("Do not move");
+            case 1 -> System.out.println("Move Up!");
+            case 2 -> System.out.println("Move down!");
+            case 3 -> System.out.println("Move left!");
+            case 4 -> System.out.println("Move right!");
+            case 0 -> System.out.println("Do not move!");
             default -> System.out.println("Error!");
 
         }
