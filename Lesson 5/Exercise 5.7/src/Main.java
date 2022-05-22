@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     /**
-     *
+     * Tekwill Academy
+     * Java Fundamentals
      */
     public static void main(String[] args) {
 
