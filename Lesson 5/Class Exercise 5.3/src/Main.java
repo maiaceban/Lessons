@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Tekwill Academy
+     * Java Fundamentals
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int f = scanner.nextInt();
@@ -17,5 +21,3 @@ public class Main {
         System.out.println(st);
     }
 }
-
-
