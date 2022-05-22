@@ -13,9 +13,9 @@ public class Main {
 
         switch (f) {
             case 1 -> st += "Square";
-            case 2 -> st += "circle";
-            case 3 -> st += "triangle";
-            case 4 -> st += "rhombus";
+            case 2 -> st += "Circle";
+            case 3 -> st += "Triangle";
+            case 4 -> st += "Rhombus";
             default -> st += "There is no such shape!";
         }
         System.out.println(st);
