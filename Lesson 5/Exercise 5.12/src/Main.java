@@ -11,6 +11,6 @@ public class Main {
         Please, do not remove already written comments!
          */
         // The start point of your program        }
-        System.out.println("it compiles!");  // It prints "it compiles!"
+        System.out.println("It compiles!");  // It prints "it compiles!"
     }
 }
