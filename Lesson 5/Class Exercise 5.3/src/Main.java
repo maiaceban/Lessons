@@ -12,7 +12,7 @@ public class Main {
         String st = "You have chosen a ";
 
         switch (f) {
-            case 1 -> st += "square";
+            case 1 -> st += "Square";
             case 2 -> st += "circle";
             case 3 -> st += "triangle";
             case 4 -> st += "rhombus";
