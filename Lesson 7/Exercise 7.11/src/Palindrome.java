@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.util.Scanner;
+
 public class Palindrome {
     /**
      * Tekwill Academy
@@ -12,7 +15,22 @@ public class Palindrome {
          * Sample Output: yes
          */
 
+        String str, rev = "";
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter a string:");
+        str = sc.nextLine();
 
+        int length = str.length();
+
+        for ( int i = length - 1; i >= 0; i-- )
+            rev = rev + str.charAt(i);
+
+        if (str.equals(rev))
+            System.out.println("Yes");
+        else
+            System.out.println("No");
     }
 }
+
+
