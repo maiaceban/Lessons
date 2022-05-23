@@ -1,7 +1,10 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+/**
+ * Tekwill Academy
+ * Java Fundamentals
+ */
 public class Main {
     // write a method here
     public static int[] getFirstAndLast(int [] arr) {
