@@ -6,10 +6,8 @@ public class Complex {
     double real;
     double imaginary;
 
-    public static void main(String[] args) {
-
-        Complex complex = new Complex();
-        System.out.println(complex.real);
-        System.out.println(complex.imaginary);
+    public Complex () {
+        this.real = 5.0;
+        this.imaginary = 45.02;
     }
 }
