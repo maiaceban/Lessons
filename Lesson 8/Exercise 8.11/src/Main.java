@@ -14,6 +14,6 @@ public class Main {
 
      */
     Scanner scanner = new Scanner(System.in);
-    int a = scanner.nextInt();
+    int n = scanner.nextInt();
 
 }
