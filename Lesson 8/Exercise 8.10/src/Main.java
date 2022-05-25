@@ -7,12 +7,18 @@ public class Main {
         Sample Input 1: 5       Sample Output 1: 15
      */
     public static long sum(int s) {
-        int sum = 0;
-        for (int i = 0; i <= s; i++) {
-            sum = sum + i;
+        if (s == 1) {
+            return 1;
         }
-        return sum;
+        return s + sum(s - 1);
+
+//        int sum = 0;
+//        for (int i = 0; i <= s; i++) {
+//            sum = sum + i;
+//        }
+//        return sum;
     }
+
     /* Do not change code below */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
