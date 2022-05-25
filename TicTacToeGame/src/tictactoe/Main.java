@@ -21,8 +21,9 @@ public class Main {
                 break;
             }
 
-            TikTakToeGame game = new TikTakToeGame();
+            TikTakToeGame game = new TikTakToeGame(state);
             System.out.println(game.getState());
+            System.out.println(game.getStatus());
         }
     }
 }
