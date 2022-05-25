@@ -14,4 +14,7 @@ fields.
         this.yearOfPublishing = 2019;
         this.authors = "James Clear";
     }
+
+    public static void main(String[] args) {
+    }
 }
