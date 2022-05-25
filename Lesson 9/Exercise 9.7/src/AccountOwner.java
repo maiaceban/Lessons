@@ -21,10 +21,8 @@ public class AccountOwner {
         Account Account = null;
 
         // pass it into process method
-
         process(Account);
     }
-
     static class Account {
         private String code;
         private long balance;
