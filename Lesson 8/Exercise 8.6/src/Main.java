@@ -23,6 +23,7 @@ public class Main {
     // write a method here: public static ...
     public static int getMaxMinusCurrent(int val){
         return Integer.MAX_VALUE - val;
+
     }
 
     // write a method here: public static ...
