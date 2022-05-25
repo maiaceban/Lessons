@@ -14,7 +14,7 @@ null
      */
     public static String prepareFullName(String firstName, String lastName) { //Implement a function for preparing full name
         /* Write your code here */
-        String fullName = "";
+        String fullName;
 
         if (lastName == null) {
             lastName = firstName;
