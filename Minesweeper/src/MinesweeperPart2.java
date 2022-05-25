@@ -3,22 +3,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MinesweeperPart2 {
-    /*
-    Description
-It is not interesting when the field has exactly the same setup every time, and you
-know where all the mines are located, isn't it? To avoid that, let's generate a new random
-configuration every time the user wants to play the game.
-Let's improve the program and let the user choose how many mines she wants to
-play with on the field. The user just needs to input a number from the keyboard.
-
-The program should ask the user how many mines he wants to see on the field and
-then display the field with mines. The mines must still be visible to the user, you will hide
-them in the following stages. Make sure that mines are marked with the 'X' character
-and safe fields are marked with the '.' character. Also, use a 9x9 field, the tests check
-the field of this size.
-In this stage, you need to use a random number generator. The class you need is
-java.util.Random.
-     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("How many mines do you want on the field? ");
