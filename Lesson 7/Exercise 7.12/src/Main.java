@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     /**
@@ -15,5 +17,16 @@ public class Main {
             Sample Input 2: bce Sample Output 2: false
          */
 
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine().toLowerCase();
+
+        boolean ordered = true;
+        for (int i = 1; i < str.length(); i++) {
+            if (str.charAt(i) - str.charAt(i - 1) != 1) {
+                ordered = false;
+                break;
+            }
+        }
+        System.out.println(ordered);
     }
 }
