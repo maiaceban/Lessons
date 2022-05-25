@@ -11,11 +11,11 @@ public class Main {
 
     /* Fix this method */
     public static void printReverseCharByChar(String s) {
-        char[] resultarray = s.toCharArray();
+        char[] resultArray = s.toCharArray();
         //iteration
-        for (int i = resultarray.length - 1; i >= 0; i--)
+        for (int i = resultArray.length - 1; i >= 0; i--)
             // print reversed String
-            System.out.print(resultarray[i]);
+            System.out.print(resultArray[i]);
     }
 
     /* Do not change code below */
