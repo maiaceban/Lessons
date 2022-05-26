@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static void printEmployee(Employee employee) {
-        System.out.println("Employee is:" + "" + employee.name + " \t" + "" + "The salary is: " + employee.salary +
+        System.out.println("Employee is:" + " " + employee.name + " \t" + "" + "The salary is: " + employee.salary +
                 " " + "\t" + "" + "The address is: " + employee.address);
     }
 }
