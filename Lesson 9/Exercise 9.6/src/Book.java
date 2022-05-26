@@ -15,7 +15,4 @@ fields.
         this.authors = "James Clear";
     }
 
-    public static void main(String[] args) {
-
-    }
 }
