@@ -6,11 +6,9 @@ Add three constructors to the class:
 ● the second one takes name and salary, and then initializes the corresponding fields, the address is "unknown";
 ● the third one takes name, salary, address and initializes all fields.
  */
-
     String name;
     int salary;
     String address;
-
 
     public Employee() {
         this.name = "unknown";
