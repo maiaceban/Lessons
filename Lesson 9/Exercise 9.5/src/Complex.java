@@ -6,8 +6,8 @@ public class Complex {
     double real;
     double imaginary;
 
-    public Complex () {
-        this.real = 5.0;
-        this.imaginary = 45.02;
+    public Complex (double real, double imaginary) {
+        this.real = real;
+        this.imaginary = imaginary;
     }
 }
