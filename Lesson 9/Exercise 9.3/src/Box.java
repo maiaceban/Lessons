@@ -7,5 +7,5 @@ public class Box {
         double length;
         double height;
         double width;
-        boolean innerBox;
+        Box innerBox;
 }
