@@ -1,7 +1,3 @@
-import java.io.Console;
-import java.sql.Array;
-import java.util.Scanner;
-
 public class Arrays {
     /*
      The class Arrays includes a lot of useful methods for processing arrays. One of them is the binarySearch method.
@@ -15,13 +11,22 @@ public class Arrays {
      */
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        int size = 10;
+        int[] arr = new int[size];
 
-        int[] intArray = new int[] { 0,1,2,3,4,5,6,7,8,9};
+        java.util.Scanner sc = new java.util.Scanner(System.in);
 
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
 
+        int search = sc.nextInt();
 
+        java.util.Arrays.sort(arr);
+
+        int result = java.util.Arrays.binarySearch(arr, search);
+
+        System.out.println(result);
 
     }
 }
