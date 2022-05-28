@@ -6,7 +6,7 @@ Implement a function for preparing full name. The function takes two string argu
 You need to concat them together with a space in the middle.
 If an argument is null then do not add it and a space to the full name.
 Sample Input 1:                    Sample Output 1:
-Joseph                             Joseph Brown
+Joseph Brown
 Brown
 Sample Input 2:                     Sample Output 2:
 Joseph                              Joseph
