@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class TikTakToe3 {
     public static void main(String[] args) {
-        System.out.print("Enter cells: ");
+        System.out.print("Enter cells:  ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
 

@@ -7,6 +7,7 @@ public class TikTakToe1 {
         System.out.println("X O X");
         System.out.println("O X O");
         System.out.println("X X O");
+        System.out.println();
     }
 
 }
