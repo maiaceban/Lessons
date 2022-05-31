@@ -4,5 +4,6 @@ public class User {
     public User() {
         this.firstName = "";
         this.lastName = "";
+
     }
 }
