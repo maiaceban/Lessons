@@ -1,7 +1,8 @@
 package tictactoe;
-
-
 import java.util.Scanner;
+/*
+PART NR.3
+ */
 
 public class TikTakToe3 {
     public static void main(String[] args) {
