@@ -11,4 +11,5 @@ public enum DangerLevel {
     public int getLevel(){
         return level;
     }
+
 }

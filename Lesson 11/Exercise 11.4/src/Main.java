@@ -4,4 +4,5 @@ public class Main {
         DangerLevel medium = DangerLevel.MEDIUM;
         System.out.println(high.getLevel() > medium.getLevel()); // true
     }
+
 }
