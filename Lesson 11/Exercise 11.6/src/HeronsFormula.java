@@ -6,7 +6,7 @@ public class HeronsFormula {
         Scanner scanner;
         scanner = new Scanner(System.in);
         // Take input from user
-        System.out.println("Enter Three Sides of a Triangle");
+        System.out.println("Enter Three Sides of a Triangle: ");
         s1 = scanner.nextDouble();
         s2 = scanner.nextDouble();
         s3 = scanner.nextDouble();
