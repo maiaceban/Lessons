@@ -18,7 +18,6 @@ class RegularEmployee extends Employee {
         this.hireDate = hireDate;
     }
 }
-
 class ContractEmployee extends Employee {
     protected long payPerHour;
     protected String contractPeriod;
