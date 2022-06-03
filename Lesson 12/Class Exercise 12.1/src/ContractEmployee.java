@@ -6,6 +6,5 @@ public class ContractEmployee extends Employee {
         super(name, birthDate);
         this.payPerHour = payPerHour;
         this.contractPeriod = contractPeriod;
-
     }
 }
