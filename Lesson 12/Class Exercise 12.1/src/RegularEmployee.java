@@ -1,4 +1,4 @@
-public class RegularEmployee extends Employee{
+public class RegularEmployee extends Employee {
     protected long salary;
     protected String hireDate;
 

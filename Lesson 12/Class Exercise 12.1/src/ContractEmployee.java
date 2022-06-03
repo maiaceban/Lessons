@@ -7,5 +7,4 @@ public class ContractEmployee extends Employee {
         this.payPerHour = payPerHour;
         this.contractPeriod = contractPeriod;
     }
-
 }
