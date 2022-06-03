@@ -6,5 +6,6 @@ public class RegularEmployee extends Employee {
         super(name, birthDate);
         this.salary = salary;
         this.hireDate = hireDate;
+
     }
 }
