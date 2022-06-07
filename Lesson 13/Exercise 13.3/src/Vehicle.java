@@ -5,8 +5,9 @@ public class Vehicle {
         this.licensePlate = licensePlate;
     }
 
+    //Vehicle{licensePlate=ABC123}
     @Override
     public String toString() {
-        return "licensePlate=ABC123";
+        return "Vehicle{licensePlate=" + licensePlate + ")";
     }
 }
