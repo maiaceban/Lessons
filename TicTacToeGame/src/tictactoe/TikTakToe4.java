@@ -1,20 +1,25 @@
 package tictactoe;
+
 import java.util.Scanner;
-/*
-PART NR.3
- */
-public class TikTakToe3 {
+
+public class TikTakToe4 {
+    private static final Scanner SCANNER = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.print("Enter cells: ");
-        Scanner scanner = new Scanner(System.in);
-        String str = scanner.nextLine();
-        char[][] input = toMulti(str);
+        String str = SCANNER.nextLine();
+        char[][] game = toMulti(str);
 
-        print(input);
-        int nrOfXs = countChar(input, 'X');
-        int nrOfOs = countChar(input, 'O');
-        boolean xHasWon = hasWon(input, 'X');
-        boolean oHasWon = hasWon(input, 'O');
+        print(game);
+
+        getUserInput(game);
+
+        print(game);
+
+        int nrOfXs = countChar(game, 'X');
+        int nrOfOs = countChar(game, 'O');
+        boolean xHasWon = hasWon(game, 'X');
+        boolean oHasWon = hasWon(game, 'O');
         int diff = Math.abs(nrOfXs - nrOfOs);
 
         if (diff > 1 || (xHasWon && oHasWon)) {
@@ -90,12 +95,42 @@ public class TikTakToe3 {
         };
     }
 
+    private static void getUserInput(char[][] game) {
+        while (true) {
+            System.out.print("Enter the coordinates: ");
+            String input = SCANNER.nextLine();//31 31
+            String[] in = input.split(" ");//["31", "31"]
+
+            if (in.length != 2) {
+                System.out.println("You should input numbers!");
+                continue;
+            }
+
+            if (!isNumeric(in[0]) || !isNumeric(in[1])) {
+                System.out.println("You should input numbers!");
+                continue;
+            }
+
+            int i1 = Integer.parseInt(in[0]) - 1;
+            int i2 = Integer.parseInt(in[1]) - 1;
+
+            if (i1 < 0 || i1 > 2 || i2 < 0 || i2 > 2) {
+                System.out.println("Coordinates should be from 1 to 3!");
+                continue;
+            }
+
+            if (game[i1][i2] != '_') {
+                System.out.println("This cell is occupied!");
+                continue;
+            }
+
+            game[i1][i2] = 'X';
+            break;
+        }
+
+    }
+
+    private static boolean isNumeric(String str) {
+        return str.matches("-?\\d+(\\.\\d+)?");
+    }
 }
-//XXXOO__O_
-//XOXOXOXXO
-//XOOOXOXXO
-//XOXOOXXXO
-//XO_OOX_X_
-//XO_XO_XOX
-//_O_X__X_X
-//_OOOO_X_X

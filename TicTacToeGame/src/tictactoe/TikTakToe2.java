@@ -7,35 +7,32 @@ PART NR.2
  */
 public class TikTakToe2 {
     public static void main(String[] args) {
+        System.out.print("Enter cells: ");
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        String input = scanner.nextLine();//OXO__X_OX
 
-        char[] chars = input.toCharArray();
+        char[][] chars = toMulti(input);
+        print(chars);
     }
 
-    private static void print1(char[] chars) {
-        //field has a specific format and should start and end with ---------
+    private static void print(char[][] chars) {
         System.out.println("---------");
-        for (int i = 0; i < chars.length; i++) {
-            if (i % 3 == 0) {
-                // all lines in between should start and end with '|' symbol
-                if (i != 0) {
-                    System.out.println("|");
-                }
-                //and everything in the middle should be separated with a single space.
-                System.out.println("| ");
+        for (char[] aChar : chars) {
+            System.out.print("| ");
+            for (char c : aChar) {
+                System.out.print(c + " ");
             }
-            System.out.print(chars[i] + " ");
+            System.out.println("|");
         }
-        System.out.println("| ");
         System.out.println("---------");
     }
 
-    private static void print2(char[] array) {
-        System.out.println("---------");
-        System.out.println("| " + array[0] + " " + array[1] + " " + array[2] + " |");
-        System.out.println("| " + array[3] + " " + array[4] + " " + array[5] + " |");
-        System.out.println("| " + array[6] + " " + array[7] + " " + array[8] + " |");
-        System.out.println("---------");
+
+    private static char[][] toMulti(String input) {
+        return new char[][]{
+                {input.charAt(0), input.charAt(1), input.charAt(2)},
+                {input.charAt(3), input.charAt(4), input.charAt(5)},
+                {input.charAt(6), input.charAt(7), input.charAt(8)}
+        };
     }
 }
