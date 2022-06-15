@@ -1,6 +1,8 @@
+import java.util.Objects;
+
 public class Money {
-    int amount;
-    String currencyCode;
+    private int amount;
+    private String currencyCode;
 
     public Money(int amount, String currencyCode) {
         this.amount = amount;
@@ -21,5 +23,21 @@ public class Money {
 
     public void setCurrencyCode(String currencyCode) {
         this.currencyCode = currencyCode;
+    }
+// Overriding equals
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof Money money)) { //cast
+            return false;
+        }
+        return amount == money.amount&& Objects.equals(currencyCode,money.currencyCode);
+    }
+    //Overriding hashCode
+    @Override
+    public int hashCode(){
+        return Objects.hash(amount, currencyCode);
     }
 }
