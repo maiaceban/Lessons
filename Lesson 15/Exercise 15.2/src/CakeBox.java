@@ -29,7 +29,6 @@ class PieBox {
     }
 }
 
-
 /**
  * Box for tarts
  */
