@@ -10,8 +10,6 @@ public class ArrayUtils {
     }
 
     public static <S> String info(S[] arr) {
-//        return Arrays.toString(arr);
-
         StringBuilder result = new StringBuilder("[");
         for (S s : arr) {
             result.append(s).append(", ");
