@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -9,9 +10,11 @@ public class Main {
 
         List<String> strings = new ArrayList<>();
 
-        for (String str : s.split(" ")) {
-            strings.add(str);
-        }
+        strings.addAll(Arrays.asList(s.split(" ")));
+
+//        for (String str : s.split(" ")) {
+//            strings.add(str);
+//        }
         System.out.println(strings);
 
     }
