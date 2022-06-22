@@ -18,6 +18,5 @@ public class Array {
         System.out.println(nameList.get(1)); //Mr.Yellow
         System.out.println(nameList.get(2)); //Mr.Red
 
-
     }
 }
