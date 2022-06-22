@@ -17,3 +17,7 @@ public class Main {
                 .collect(Collectors.joining(" ")));
     }
 }
+//input: 387-968-2999 505-468-5235 739-738-3272
+//       505-468-5235
+
+//output: 387-968-2999 739-738-3272
