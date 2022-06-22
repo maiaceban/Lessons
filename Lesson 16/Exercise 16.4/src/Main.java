@@ -10,6 +10,11 @@ public class Main {
     public static <T> void applyFunction(T[] array, Function<T, T>
             func) {
     // write your code here
+        System.out.println(applyFunction(new String[][]{new String[]{"hdka"}}));
+//        T[]array;
+//        Function<T,T>{
+//            func
+//        }
 
 
     }
