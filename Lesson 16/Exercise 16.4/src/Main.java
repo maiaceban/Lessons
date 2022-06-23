@@ -9,15 +9,11 @@ import java.util.function.*;
 public class Main {
     public static <T> void applyFunction(T[] array, Function<T, T>
             func) {
-    // write your code here
-        System.out.println(applyFunction(new String[][]{new String[]{"hdka"}}));
-//        T[]array;
-//        Function<T,T>{
-//            func
-//        }
-
-
+        for (int i = 0; i < array.length; i++) {
+            array[i] = func.apply(array[i]);
+        }
     }
+
     // do not change code below
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
