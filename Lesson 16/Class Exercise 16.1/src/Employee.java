@@ -23,4 +23,9 @@ public class Employee implements Measurable {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    @Override
+    public double getMeasure() {
+        return salary;
+    }
 }

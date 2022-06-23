@@ -1,5 +1,4 @@
+@FunctionalInterface
 public interface Measurable {
-    default Object getMeasurable() {
-        return null;
-    }
+    double getMeasure();
 }
