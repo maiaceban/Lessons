@@ -10,9 +10,7 @@ check if the value occurs the same number of times in both sequences.
 In the following input example, the first line contains the value, the second line is the
 first list, the third line is another list. All numbers are separated by whitespaces.
      */
-    public static boolean checkTheSameNumberOfTimes(int elem,
-
-                                                    List<Integer> list1, List<Integer> list2) {
+    public static boolean checkTheSameNumberOfTimes(int elem, List<Integer> list1, List<Integer> list2) {
 
         // implement the method
         int counterList1 = 0;
