@@ -13,7 +13,11 @@ must not be equal.
  */
 public class Main {
     private static <T> boolean isStrictSuperset(Set<T> set1, Set<T> set2) {
-return false;
+
+        if (set2.size() <= set1.size()) {
+            return false;
+        }
+        return set2.containsAll(set1);
     }
 
     /* Please do not change the code below */
