@@ -12,6 +12,7 @@ Sample Input 1: 5 2 0 1         Sample Output 1: 2
 public class FixingArithmeticException {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
