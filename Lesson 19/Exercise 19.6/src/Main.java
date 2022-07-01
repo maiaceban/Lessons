@@ -24,8 +24,8 @@ public class Main {
 
         while (!input.equals("0")) {
             try {
-                int numebr = Integer.parseInt(input);
-                System.out.println(numebr * 10);
+                int number = Integer.parseInt(input);
+                System.out.println(number * 10);
             } catch (NumberFormatException exception) {
                 System.out.println("Invalid use input: " + input);
             }
