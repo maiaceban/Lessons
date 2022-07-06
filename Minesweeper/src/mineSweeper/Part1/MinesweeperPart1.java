@@ -1,3 +1,5 @@
+package mineSweeper.Part1;
+
 public class MinesweeperPart1 {
     public static void main(String[] args) {
         System.out.println(".X....X..");

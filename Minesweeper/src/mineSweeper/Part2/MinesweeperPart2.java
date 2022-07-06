@@ -1,3 +1,5 @@
+package mineSweeper.Part2;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -35,7 +37,7 @@ public class MinesweeperPart2 {
         return matrix;
     }
 
-    public static void generateNMines(char[][] matrix, int nrOfMines) {
+    private static void generateNMines(char[][] matrix, int nrOfMines) {
         // generating mines
         Random random = new Random();
         int count = 0;
