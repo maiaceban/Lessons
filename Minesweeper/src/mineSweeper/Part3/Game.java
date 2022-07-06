@@ -56,5 +56,15 @@ public class Game {
                 }
             }
         }
+        @Override
+                public String toString() {
+            StringBuilder stringBuilder = new StringBuilder();
+            for (char[] chars : fields) {
+                for (char aChar: chars)
+                stringBuilder.append(aChar);
+            }
+            stringBuilder.append(System.lineSeparator());
+        }
+        return stringBuilder.toString();
     }
 }
