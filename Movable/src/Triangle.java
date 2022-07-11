@@ -1,15 +1,34 @@
 public class Triangle extends Polygon {
-    public MovablePoint cornerOne;
-    public MovablePoint cornerTwo;
-    public MovablePoint cornerThree;
 
-    public Triangle(MovablePoint cornerOne, MovablePoint cornerTwo, MovablePoint cornerThree) {
-        this.cornerOne = cornerOne;
-        this.cornerTwo = cornerTwo;
-        this.cornerThree = cornerThree;
+    public Triangle(Point p1, Point p2, Point p3) {
+        vertices = new Point[]{p1, p2, p3};
     }
+
     @Override
-    public String toString() {
-        return "<" + cornerOne + ":" + cornerTwo + ":" + cornerThree + ">";
+    public void moveUp(int distance) {
+        for (Point vertex : vertices) {
+            vertex.setY(vertex.getY() + distance);
+        }
+    }
+
+    @Override
+    public void moveDown(int distance) {
+        for (Point vertex : vertices) {
+            vertex.setY(vertex.getY() - distance);
+        }
+    }
+
+    @Override
+    public void moveLeft(int distance) {
+        for (Point vertex : vertices) {
+            vertex.setX(vertex.getX() - distance);
+        }
+    }
+
+    @Override
+    public void moveRight(int distance) {
+        for (Point vertex : vertices) {
+            vertex.setX(vertex.getX() + distance);
+        }
     }
 }

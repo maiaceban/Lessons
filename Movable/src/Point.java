@@ -1,24 +1,19 @@
-public class MovablePoint {
+public class Point {
 
-    public int xSpeed;
-    public int ySpeed;
-    int x;
-    int y;
+    private int x;
+    private int y;
 
-    public MovablePoint() {
+    public Point() {
         this(0, 0);
     }
 
-    public MovablePoint(int n) {
+    public Point(int n) {
         this(n, n);
     }
 
-    public MovablePoint(int x, int y) {
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
-    }
-
-    public MovablePoint(int i, int i1, int i2, int i3) {
     }
 
     public void display() {

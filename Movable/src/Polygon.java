@@ -1,22 +1,3 @@
-public class Polygon implements Movable{
-
-    @Override
-    public void moveUp() {
-
-    }
-
-    @Override
-    public void moveDown() {
-
-    }
-
-    @Override
-    public void moveLeft() {
-
-    }
-
-    @Override
-    public void moveRight() {
-
-    }
+public abstract class Polygon implements Movable{
+    protected Point[] vertices;
 }
