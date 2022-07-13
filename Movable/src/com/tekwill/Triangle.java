@@ -1,15 +1,13 @@
-public class Rectangle extends Polygon {
+package com.tekwill;
 
-    public Rectangle(Point topRightCorner, int width, int height) {
-        int x2 = topRightCorner.getX() - width;
-        int y2 = topRightCorner.getY() - height;
-        Point bottomRightCorner = new Point(topRightCorner.getX(), y2);
-        Point bottomLeftCorner = new Point(x2, y2);
-        Point topLeftCorner = new Point(x2, topRightCorner.getY());
+import com.tekwill.Point;
+import com.tekwill.Polygon;
 
-        vertices = new Point[]{topLeftCorner, topRightCorner, bottomRightCorner, bottomLeftCorner};
+public class Triangle extends Polygon {
+
+    public Triangle(Point p1, Point p2, Point p3) {
+        vertices = new Point[]{p1, p2, p3};
     }
-
 
     @Override
     public void moveUp(int distance) {

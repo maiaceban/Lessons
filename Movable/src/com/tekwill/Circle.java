@@ -1,3 +1,7 @@
+package com.tekwill;
+
+import com.tekwill.Movable;
+
 public class Circle implements Movable {
 
     private final Point point;
@@ -10,7 +14,7 @@ public class Circle implements Movable {
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "com.tekwill.Circle{" +
                 "point=" + point +
                 ", radius=" + radius +
                 '}';
