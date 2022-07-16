@@ -1,7 +1,7 @@
 package tictactoe.player;
 
 public enum PlayerType {
-    EMPTY(' '),
+    EMPTY('_'),
     X('X'),
     O('O');
 

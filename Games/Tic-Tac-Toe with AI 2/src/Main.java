@@ -53,7 +53,7 @@ public class Main {
     private static String[] readCommands() {
 
         while (true) {
-            System.out.print("Enter the cells: > ");
+            System.out.print("Input command: > ");
             String[] args = reader.nextLine().split("\\s+");
             if (args.length == 1 && args[0].equals("exit"))
                 return new String[]{"exit"};
