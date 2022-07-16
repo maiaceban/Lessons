@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
 /**
  * Stage 2/5: Flexible mines
  */
