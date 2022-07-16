@@ -1,6 +1,7 @@
 /**
  * Stage 1/5: Lay the groundwork
  */
+
 public class Minesweeper1 {
     public static void main(String[] args) {
         //there are 10 mines in a 9x9 field.
