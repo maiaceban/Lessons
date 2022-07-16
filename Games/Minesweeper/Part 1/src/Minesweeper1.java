@@ -1,5 +1,5 @@
 /**
- * Stage 1/5: Lay the groundwork (baza)
+ * Stage 1/5: Lay the groundwork
  */
 public class Minesweeper1 {
     public static void main(String[] args) {
@@ -13,5 +13,7 @@ public class Minesweeper1 {
         System.out.println("**M******");
         System.out.println("**M******");
         System.out.println("******M**");
+        System.out.println();
+
     }
 }
