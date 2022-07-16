@@ -453,7 +453,6 @@ public class Main {
 
         return new int[]{row, column};
     }
-
 }
 
 class Move {
@@ -461,7 +460,6 @@ class Move {
     int score;
 
     Move() {
-
     }
 
     Move(int s) {
