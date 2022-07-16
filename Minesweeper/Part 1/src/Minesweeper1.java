@@ -14,6 +14,5 @@ public class Minesweeper1 {
         System.out.println("**M******");
         System.out.println("******M**");
         System.out.println();
-
     }
 }
